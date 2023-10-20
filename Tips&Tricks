@@ -1,1 +1,3 @@
-Whenever you're trying to solve an array problem in-place, always consider the possibility of iterating backwards instead of forwards through the array. It can completely change the problem, and make it a lot easier.
+1. Whenever you're trying to solve an array problem in-place, always consider the possibility of iterating backwards instead of forwards through the array. It can completely change the problem, and make it a lot easier.
+2. Insert a new node into a linked list takes O(1) time complexity.
+3. Deleting a node into a linked list takes be O(N) time complexity. 
