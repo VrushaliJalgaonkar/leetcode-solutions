@@ -1,5 +1,5 @@
 // Link : https://leetcode.com/problems/design-circular-queue/description/
-//Last Practice on : 5-Jan-2024
+// Last Practice on : 5-Jan-2024
 
 //Approach 2 : Singly Linked list
 class Node {
