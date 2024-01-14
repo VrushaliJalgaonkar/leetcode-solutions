@@ -2,7 +2,9 @@
 // Last practice on : 14-Jan-2024
 
 class Solution {
-
+    
+    //Approach-2 : Using Bitwise Operation and Frequency Array Map
+    
     public boolean closeStrings(String word1, String word2) {
         if(word1.length() != word2.length()){
             return false;
