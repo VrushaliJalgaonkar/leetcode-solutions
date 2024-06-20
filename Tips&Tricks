@@ -22,3 +22,12 @@
                     while (root.right != null) root = root.right;
                     return root;
                 } 
+11) Hash Table :
+    -> If there are M keys in total, we can achieve the space complexity of O(M) easily when using a hash table.
+
+    -> Most of us might have used an array in each bucket to store values in the same bucket. Ideally, the bucket size is small enough to be regarded as a constant. The time complexity of both insertion and search will be O(1).
+
+    -> But in the worst case, the maximum bucket size will be N. And the time complexity will be O(1) for insertion but O(N) for search.
+
+    -> The average time complexity of both insertion and search is still O(1). And the time complexity in the worst case is O(logN) for both insertion and search by using height-balanced BST. It is a trade-off between insertion and search.
+
