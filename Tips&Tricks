@@ -7,3 +7,18 @@
 6) If we take XOR of two same bits, it will return 0
     a (xor) a = 0
 7) a (xor) b (xor) a = [a (xor) a] (xor) b = 0 (xor) b = b
+8) Inorder traversal of BST is an array sorted in ascending order.
+9) Successor = "after node", i.e. the next node, or the smallest node after the current one.
+       -> To find a successor, go to the right once and then as many times to the left as you could.
+                public TreeNode successor(TreeNode root) {
+                    root = root.right;
+                    while (root.left != null) root = root.left;
+                    return root;
+                } 
+10) Predecessor = "before node", i.e. the previous node, or the largest node before the current one.
+        -> To find a predecessor, go to the left once and then as many times to the right as you could.
+                public TreeNode predecessor(TreeNode root) {
+                    root = root.left;
+                    while (root.right != null) root = root.right;
+                    return root;
+                } 
